@@ -27,7 +27,7 @@ const CountdownProvider = ({children}: Props) => {
   const { startNewChallenge } = React.useContext(ChallengeContext);
 
   // Definindo o estado do countdown
-  const [time, setTime] = React.useState(0.05 * 60);
+  const [time, setTime] = React.useState(25 * 60);
   // Estado se o coundown está ativo ou não
   const [isActive, setIsActive] = React.useState(false);
   // Estado se o coundown finalizou
